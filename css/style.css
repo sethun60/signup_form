@@ -1,0 +1,302 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---header---*/
+
+body {
+	width: 1263px;
+	background-color: #E0F0EA;
+}
+
+header {
+	width: 690px;
+	height: 109px;
+	margin: auto;
+}
+
+header img {
+	margin-top: 35px;
+}
+
+nav {
+	float: right;
+	margin-top: 80px;
+}
+
+nav ul li {
+	display: inline;
+	padding: 0 14px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+#signup {
+	font-weight: bold;
+	border-right: 1px solid rgb(211, 211, 211);
+}
+
+section {
+	background-color: white;
+    width: 590px;
+    height: 648px;
+    padding: 43px 50px 50px 50px;
+    clear: both;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 8px 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 8px 0px;
+    margin: auto;
+}
+
+section header h1 {
+    font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+#form-container {
+    width: 590px;
+}
+
+form {
+	display: block;
+	float: left;
+}
+
+form ul li {
+	display: list-item;
+
+}
+
+form li {
+	height: 75px;
+	width: 350px;
+}
+
+li {
+	display: list-item;
+}
+
+form label {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: 18px;
+	width: 350px;
+	padding-bottom: 5px;
+}
+
+form input {
+	border: 1px solid rgb(204, 204, 204);
+	padding: 2px;
+	height: 24px;
+	width: 260px;
+	color: rgb(102, 102, 102);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.098) 0 1px 1px 0 inset;
+}
+
+form select {
+	align-items: center;
+	width: 270px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid rgb(166, 166, 166);
+	font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+#form-zip {
+	width: 80px;
+}
+
+#form-agree {
+	display: inline;
+	width: auto;
+	height: auto;
+	border: 0;
+}
+
+#form-agree-label {
+	color: rgb(102, 102, 102);
+	font-size: 13px;
+	font-weight: normal;
+	display: inline;
+}
+
+#form-agree-label a {
+	font-size: 14px;
+	color: rgb(0, 110, 164);
+	text-decoration: none;
+}
+
+#form-agree-label a:hover {
+	text-decoration: underline;
+}
+
+input[type=submit] {
+	width: 74px;
+	height: 30px;
+	border-radius: 4px;
+	background-color: rgb(251, 180, 80);
+	-webkit-box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0 0 inset, rgba(0, 0, 0, 0.05) 0 1px 2px 0;
+	border-color: rgb(248, 148, 6);
+	border-bottom-color: rgb(173, 103, 4);
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: 'Lucida Grande', sans-serif;
+	padding: 0px;
+}
+
+
+/*---Aside---*/
+
+#aside {
+	width: 223px;
+	height: 528px;
+	border-left: 1px solid rgb(211, 211, 211);
+	float: left;
+	padding-left: 15px;
+	color: #666;
+	display: inline-block;
+	line-height: 1.5;
+
+}
+
+#tips {
+	background-color: #f5f5f5;;
+	border-radius: 5px;
+	margin-left: 25px;
+	padding: 15px;
+
+}
+
+#disp {
+	width: 197px;
+	height: 180px;
+
+}
+
+#disp ul li {
+	font-size: 12px;
+
+}
+
+#disp a {
+	color: #666;
+	font-size: 12px;
+}
+
+footer {
+	clear: both;
+	margin-top: 20px;
+	padding: 20px 0px 100px;
+}
+
+.body-footer {
+	width: 690px;
+	margin: 0 auto;
+}
+
+.links ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.links ul li a {
+	text-decoration: none;
+	color: #a5a5a5;
+}
+
+.links ul li a:hover {
+	text-decoration: underline;
+}
+
+.external-links {
+	width: 690px;
+	text-align: center;margin-top: 20px;
+
+}
+
+#verisign {
+	background-image: url("https://images.mint.com/web-client/images/security/vseal.svg");
+	background-size: 140px 58px;
+}
+
+#ssl-truste {
+	background-image: url("https://images.mint.com/web-client/images/security/truste.svg");
+}
+.external-links a {
+	width: 140px;
+	height: 58px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 11px;
+	color: #a5a5a5;
+	font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#number {
+	border-left: 2px solid #a5a5a5;
+	padding-left: 10px;
+}
